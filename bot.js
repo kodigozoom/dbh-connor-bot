@@ -14,9 +14,9 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-    if (message.content === 'ping') {
+    if (message.content === 'introduce') {
 
-       message.reply('pong');
+       message.reply('My name is Connor. I am the Android sent by Cyberlife.');
 
        }
 
